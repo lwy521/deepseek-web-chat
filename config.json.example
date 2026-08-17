@@ -1,0 +1,16 @@
+{
+  "autoLogin": {
+    "enabled": true,
+    "phone": "YOUR_PHONE_OR_EMAIL",
+    "password": "YOUR_PASSWORD"
+  },
+  "retry": {
+    "maxAttempts": 3,
+    "baseDelay": 2000,
+    "maxDelay": 15000
+  },
+  "profileDir": "",
+  "responseTimeout": 120000,
+  "messageInterval": 2000,
+  "idleTimeout": 3600000
+}

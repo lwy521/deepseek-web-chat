@@ -1,0 +1,13 @@
+# ===== 敏感文件（不提交） =====
+config.json
+deepseek-browser-state.json
+
+# ===== 系统文件 =====
+Thumbs.db
+.DS_Store
+*.log
+*.tmp
+
+# ===== Node.js =====
+node_modules/
+package-lock.json

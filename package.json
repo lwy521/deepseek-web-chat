@@ -1,0 +1,16 @@
+{
+  "name": "deepees-web-chat",
+  "version": "1.0.0",
+  "description": "Automated DeepSeek Web Chat via Playwright + Edge. Supports multiple modes, file upload, history management, daemon mode.",
+  "main": "deepseek-ai.js",
+  "scripts": {
+    "chat": "node deepseek-ai.js",
+    "daemon": "node deepseek-ai.js --daemon",
+    "list": "node deepseek-ai.js --list"
+  },
+  "keywords": ["deepseek", "chat", "automation", "playwright", "edge"],
+  "license": "MIT",
+  "dependencies": {
+    "playwright-core": "^1.52.0"
+  }
+}
